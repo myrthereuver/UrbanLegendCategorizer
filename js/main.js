@@ -144,8 +144,8 @@ $('#check-result').click(function(){
     else if(correctRatio == 1){
         message = "Alles goed, geweldig!";
     }
-    message = "De keywords zijn opgeslagen in het systeem!"
-    message += "<Br/><br/>Hieronder is aangegeven met groen en rood welke keywords door een andere catalogiseerder zijn toegekend.";
+    message = "Het computermodel vindt sommige broodjeaapverhalen moeilijker te identificeren dan andere!"
+    message += "<Br/><br/>Hieronder is aangegeven met groen en rood welke classificaties correct waren volgens onze database, en welke niet.";
     
     
     // deal with gold brinkeys that weren't suggested
@@ -157,7 +157,7 @@ $('#check-result').click(function(){
     
     
     if(missingBrinkeyFound){
-        message += "<Br/><br/>Er zijn ook nog keywords die niet in de gesuggereerde lijst zitten, maar wel door de KB zijn toegekend, die staan rechts onderaan.";
+        message += "<Br/><br/> Onderaan staan de categorie-labels die correct zijn volgens de database. Onderaan kun je ook de hierarchie bekijken, om te kijken of een andere, gerelateerde categorie misschien beter past.";
         $('#missing-gold-brinkeys').fadeIn();
     }
     
