@@ -16,43 +16,14 @@ $("#drop").droppable({ accept: ".dissertation",
 		var cat2 = suggestedBrinkeys[1];
 		var cat3 = suggestedBrinkeys[2];
 
-    	var inPuttext3 = document.getElementById("iPf3").value;
   	function appendOutput(where, what) {
     	where.innerHTML = what;
  	 };
-  	$('#sendd1').click(function() {
+  	$('#sendd3').click(function() {
 	  message = "Je invoer is opgeslagen!"
+	  var inPuttext3 = document.getElementById("iPf3").value;
   	});
 
-$(document).ready(function() {
-  "use strict";
-  var outPutfield2 = document.getElementById("oPf2");
-
-  function appendOutput(where, what) {
-    where.innerHTML = what;
-  };
-  $('#sendd2').click(function() {
-    var inPuttext2 = document.getElementById("iPf2").value;
-    appendOutput(outPutfield2, inPuttext2);
-	      message = "Je invoer is opgeslagen!"
-
-  });
-});
-
-
-$(document).ready(function() {
-  "use strict";
-  var outPutfield3 = document.getElementById("oPf3");
-
-  function appendOutput(where, what) {
-    where.innerHTML = what;
-  };
-  $('#sendd3').click(function() {
-    var inPuttext3 = document.getElementById("iPf3").value;
-    appendOutput(outPutfield3, inPuttext3);
-	  "Je invoer is opgeslagen!"
-  });
-});
         $('#suggested-brinkey-container').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container2').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container3').html(''); // empty div, in case there's any left over from previous analysis
