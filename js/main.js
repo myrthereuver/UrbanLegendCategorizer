@@ -30,7 +30,7 @@ $("#drop").droppable({ accept: ".dissertation",
 		  $("#dialog p").html(message);
 		  $( "#dialog" ).dialog();
     		  $('.back-btn.hidden').fadeIn();
-		  $('#suggested-brinkey-container1').append('<p class="suggested-brinkey" data-brinkey="'+outPutfield1+'">'+outPutfield1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
+		  $('#suggested-brinkey-container1').append('<p class="suggested-brinkey" data-brinkey="'+inPuttext1+'">'+inPuttext1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
   		});
 
     
