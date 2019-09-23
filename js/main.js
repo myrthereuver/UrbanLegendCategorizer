@@ -31,7 +31,6 @@ $("#drop").droppable({ accept: ".dissertation",
 		  $( "#dialog" ).dialog();
     		  $('.back-btn.hidden').fadeIn();
 		  $('#suggested-brinkey-container1').append('<p class="suggested-brinkey" data-brinkey="'+outPutfield1+'">'+outPutfield1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
-
   		});
 
     
