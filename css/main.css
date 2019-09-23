@@ -120,6 +120,7 @@ a {
 .wrapper {
     max-width:1024px;
     width:90%;
+    height: 100%;
     margin:0px auto;
     padding:20px 2%;
     background:#fff;
