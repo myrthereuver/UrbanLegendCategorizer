@@ -15,11 +15,7 @@ $("#drop").droppable({ accept: ".dissertation",
 		var cat1 = suggestedBrinkeys[0];
 		var cat2 = suggestedBrinkeys[1];
 		var cat3 = suggestedBrinkeys[2];
-	$('#sendd1').click(function() {
-    	   var inPuttext1 = document.getElementById("iPf1").value;
-    	   $('#suggested-brinkey-container1').append('<p class="suggested-brinkey" data-brinkey="'+inPuttext1+'">'+inPuttext1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
-	     message = "Je invoer is opgeslagen!"
-	     };
+
 	
         $('#suggested-brinkey-container').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container2').html(''); // empty div, in case there's any left over from previous analysis
