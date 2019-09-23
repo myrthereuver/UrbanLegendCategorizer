@@ -16,7 +16,7 @@ $("#drop").droppable({ accept: ".dissertation",
 		var cat2 = suggestedBrinkeys[1];
 		var cat3 = suggestedBrinkeys[2];
 	    	var outPutfield1 = document.getElementById("oPf1");
-	    	    $('#suggested-brinkey-container').html(''); // empty div, in case there's any left over from previous analysis
+	    	$('#suggested-brinkey-container').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container2').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container3').html(''); // empty div, in case there's any left over from previous analysis
 
@@ -28,6 +28,8 @@ $("#drop").droppable({ accept: ".dissertation",
     	     	 appendOutput(outPutfield1, inPuttext1);
 	  	  message = "Je invoer is opgeslagen!"
 		  $("#dialog p").html(message);
+		  $( "#dialog" ).dialog();
+    		  $('.back-btn.hidden').fadeIn();
 		  $('#suggested-brinkey-container1').append('<p class="suggested-brinkey" data-brinkey="'+outPutfield1+'">'+outPutfield1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
 
   		});
