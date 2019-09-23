@@ -15,6 +15,9 @@ $("#drop").droppable({ accept: ".dissertation",
 		var cat1 = suggestedBrinkeys[0];
 		var cat2 = suggestedBrinkeys[1];
 		var cat3 = suggestedBrinkeys[2];
+	$('#sendd3').click(function() {
+    		var inPuttext3 = document.getElementById("iPf3").value;
+	  	message = "Je invoer is opgeslagen!"
         $('#suggested-brinkey-container').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container2').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container3').html(''); // empty div, in case there's any left over from previous analysis
@@ -49,50 +52,6 @@ $("#drop").droppable({ accept: ".dissertation",
     }
 });
 
-$(document).ready(function() {
-  "use strict";
-  var outPutfield1 = document.getElementById("oPf1");
-
-  function appendOutput(where, what) {
-    where.innerHTML = what;
-  };
-  $('#sendd1').click(function() {
-    var inPuttext1 = document.getElementById("iPf1").value;
-    appendOutput(outPutfield1, inPuttext1);
-	  message = "Je invoer is opgeslagen!"
-  });
-});
-
-$(document).ready(function() {
-  "use strict";
-  var outPutfield2 = document.getElementById("oPf2");
-
-  function appendOutput(where, what) {
-    where.innerHTML = what;
-  };
-  $('#sendd2').click(function() {
-    var inPuttext2 = document.getElementById("iPf2").value;
-    appendOutput(outPutfield2, inPuttext2);
-	      message = "Je invoer is opgeslagen!"
-
-  });
-});
-
-
-$(document).ready(function() {
-  "use strict";
-  var outPutfield3 = document.getElementById("oPf3");
-
-  function appendOutput(where, what) {
-    where.innerHTML = what;
-  };
-  $('#sendd3').click(function() {
-    var inPuttext3 = document.getElementById("iPf3").value;
-    appendOutput(outPutfield3, inPuttext3);
-	  message = "Je invoer is opgeslagen!"
-  });
-});
-
 
 function makeBrinkeysDroppable(){
     // making the brinkeys drop work
@@ -116,6 +75,8 @@ function makeBrinkeysDroppable(){
 	$("#suggested-brinkey-container3").droppable({ 
         accept: ".suggested-brinkey"
     });
+
+	
 }
 
 function makeBrinkeysDroppable2(){
@@ -217,6 +178,7 @@ $('#check-result').click(function(){
     $('.back-btn.hidden').fadeIn();
     
 });
+
 
 
 // back button
