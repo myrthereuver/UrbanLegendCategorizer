@@ -1,10 +1,6 @@
 
 
 // making the dissertation drop work on the homepage
-$('#sendd3').click(function() {
-	var inPuttext3 = document.getElementById("iPf3").value;
-  	});
-
 $(".dissertation").draggable({ cursor: "crosshair", revert: "invalid"});
 $("#drop").droppable({ accept: ".dissertation", 
     drop: function(event, ui) {
