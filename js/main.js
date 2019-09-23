@@ -24,6 +24,9 @@ $("#drop").droppable({ accept: ".dissertation",
 	   	 var inPuttext1 = document.getElementById("iPf1").value;
     	     	 appendOutput(outPutfield1, inPuttext1);
 	  	  message = "Je invoer is opgeslagen!"
+		  $("#dialog p").html(message);
+		  $('#suggested-brinkey-container3').append('<p class="suggested-brinkey" data-brinkey="'+outPutfield1+'">'+outPutfield1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
+
   		});
 
         $('#suggested-brinkey-container').html(''); // empty div, in case there's any left over from previous analysis
@@ -34,7 +37,6 @@ $("#drop").droppable({ accept: ".dissertation",
 	$('#suggested-brinkey-container3').append('<p class="suggested-brinkey" data-brinkey="'+cat3+'">'+cat3+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
 	
 	    
- 	$('#suggested-brinkey-container3').append('<p class="suggested-brinkey" data-brinkey="'+outPutfield1+'">'+outPutfield1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
 
         makeBrinkeysDroppable()
 		makeBrinkeysDroppable2()
