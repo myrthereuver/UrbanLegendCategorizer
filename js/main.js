@@ -43,9 +43,58 @@ $("#drop").droppable({ accept: ".dissertation",
     }
 });
 
+
+$(document).ready(function() {
+  "use strict";
+  var outPutfield1 = document.getElementById("oPf1");
+
+  function appendOutput(where, what) {
+    where.innerHTML = what;
+  };
+  $('#sendd1').click(function() {
+    var inPuttext1 = document.getElementById("iPf1").value;
+    appendOutput(outPutfield1, inPuttext1);
+	  message = "Je invoer is opgeslagen!"
+  });
+});
+
+$(document).ready(function() {
+  "use strict";
+  var outPutfield2 = document.getElementById("oPf2");
+
+  function appendOutput(where, what) {
+    where.innerHTML = what;
+  };
+  $('#sendd2').click(function() {
+    var inPuttext2 = document.getElementById("iPf2").value;
+    appendOutput(outPutfield2, inPuttext2);
+	      message = "Je invoer is opgeslagen!"
+
+  });
+});
+
+
+$(document).ready(function() {
+  "use strict";
+  var outPutfield3 = document.getElementById("oPf3");
+
+  function appendOutput(where, what) {
+    where.innerHTML = what;
+  };
+  $('#sendd3').click(function() {
+    var inPuttext3 = document.getElementById("iPf3").value;
+    appendOutput(outPutfield3, inPuttext3);
+	  "Je invoer is opgeslagen!"
+  });
+});
+
+
 function makeBrinkeysDroppable(){
     // making the brinkeys drop work
     $(".suggested-brinkey").draggable({ cursor: "crosshair", revert: "invalid"});
+   $(".outPutfield3").draggable({ cursor: "crosshair", revert: "invalid"});
+   $(".outPutfield1").draggable({ cursor: "crosshair", revert: "invalid"});
+   $(".outPutfield2").draggable({ cursor: "crosshair", revert: "invalid"});
     $("#selected-brinkeys-drop").droppable({ accept: ".suggested-brinkey", 
         drop: function(event, ui) {
             var dropped = ui.draggable;
@@ -57,13 +106,13 @@ function makeBrinkeysDroppable(){
         }
     });
     $("#suggested-brinkey-container").droppable({ 
-        accept: ".suggested-brinkey"
+        accept: ".suggested-brinkey", ".outPutfield1"
     });
 	$("#suggested-brinkey-container2").droppable({ 
-		accept: ".suggested-brinkey"
+		accept: ".suggested-brinkey", ".outPutfield2"
     });
 	$("#suggested-brinkey-container3").droppable({ 
-        accept: ".suggested-brinkey"
+        accept: ".suggested-brinkey", ".outPutfield3"
     });
 }
 
@@ -165,50 +214,6 @@ $('#check-result').click(function(){
     $( "#dialog" ).dialog();
     $('.back-btn.hidden').fadeIn();
     
-});
-
-$(document).ready(function() {
-  "use strict";
-  var outPutfield1 = document.getElementById("oPf1");
-
-  function appendOutput(where, what) {
-    where.innerHTML = what;
-  };
-  $('#sendd1').click(function() {
-    var inPuttext1 = document.getElementById("iPf1").value;
-    appendOutput(outPutfield1, inPuttext1);
-	  message = "Je invoer is opgeslagen!"
-  });
-});
-
-$(document).ready(function() {
-  "use strict";
-  var outPutfield2 = document.getElementById("oPf2");
-
-  function appendOutput(where, what) {
-    where.innerHTML = what;
-  };
-  $('#sendd2').click(function() {
-    var inPuttext2 = document.getElementById("iPf2").value;
-    appendOutput(outPutfield2, inPuttext2);
-	      message = "Je invoer is opgeslagen!"
-
-  });
-});
-
-
-$(document).ready(function() {
-  "use strict";
-  var outPutfield3 = document.getElementById("oPf3");
-
-  function appendOutput(where, what) {
-    where.innerHTML = what;
-  };
-  $('#sendd3').click(function() {
-    var inPuttext3 = document.getElementById("iPf3").value;
-    appendOutput(outPutfield3, inPuttext3);
-	  "Je invoer is opgeslagen!"
-  });
 });
 
 
