@@ -33,7 +33,7 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 01000: [..]"}},
+                                {text: {legend1: "BRUN 01000: The Vanishing Hitchhiker: hitchhiker disappears from car"}},
                                
                             ]
                         },
@@ -44,14 +44,13 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 01105: [..]"}},
-                                {text: {legend1: "BRUN 01120A: [..]"}},
-                                {text: {legend1: "BRUN 01130: [..]"}},
-                                {text: {legend1: "BRUN 01100: [..]"}},
-                                {text: {legend1: "BRUN 01115 : [..]"}},
-                                {text: {legend1: "BRUN 01110: [..]"}},
-                                {text: {legend1: "BRUN 01150: [..]"}},
-                                {text: {legend1: "BRUN 01105: [..]"}},
+                                {text: {legend1: "BRUN 01105: The Nude in the RV: person is left nude on the highway"}},
+                                {text: {legend1: "BRUN 01120A: The Kangaroo Thief: animal is hit by car, stunned, wakes up and steals coat. "}},
+                                {text: {legend1: "BRUN 01130: The Day-Trip: Vacationer in England returns wrong drunk day-tripper to his home"}},
+                                {text: {legend1: "BRUN 01100: The Runaway Grandmother: car with grandmother's corpse is stolen, never found"}},
+                                {text: {legend1: "BRUN 01115: Baby on the Roof: baby forgotten on roof of car"}},
+                                {text: {legend1: "BRUN 01110: Wife Left Behind: Wife forgotten on highway"}},
+                                {text: {legend1: "BRUN 01150: Rolls Royce Legend: RRs never break down, or company never admits it"}},
                             ]
                         },
                         {
@@ -61,11 +60,11 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 01225: [..]"}},
-                                {text: {legend1: "BRUN 01200: [..]"}},
-                                {text: {legend1: "BRUN 01210: [..]"}},
-                                {text: {legend1: "BRUN 01245: [..]"}},
-                                {text: {legend1: "BRUN 01215: [..]"}},
+                                {text: {legend1: "BRUN 01225: The Body on the Car: accident victim found stuck on car"}},
+                                {text: {legend1: "BRUN 01200: The Elephant that Sat on the VW: Elephant mistakes small red car for circus stool"}},
+                                {text: {legend1: "BRUN 01210: The Unlucky Drive Examination: Following the examinator's instructions leads to an accident"}},
+                                {text: {legend1: "BRUN 01245: Fear of Frying: Anti-seatbelt stories"}},
+                                {text: {legend1: "BRUN 01215:  OLD VS. YOUNG: Young driver steals parking place, old one crashes into car for revenge"}},
                             ]
                         },
                         {
@@ -75,9 +74,9 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 01305: [..]"}},
-                                {text: {legend1: "BRUN 01310: [..]"}},
-                                {text: {legend1: "BRUN 01300: [..]"}},
+                                {text: {legend1: "BRUN 01305: The Killer in the Backseat: Would-be killer lurks in back, detected by motorist or gas-station attendant."}},
+                                {text: {legend1: "BRUN 01310: The Hairy-Armed Hitchhiker: Man dressed as woman has hatchet in handbag, but crime is foiled."}},
+                                {text: {legend1: "BRUN 01300: The Boyfriend's Death: Boyfriend killed, girl loses mind, after being stranded in auto without gas."}},
                             ]
                         },
                         {
@@ -87,9 +86,9 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 01415: [..]"}},
-                                {text: {legend1: "BRUN 01400: [..]"}},
-                                {text: {legend1: "BRUN 01405: [..]"}},
+                                {text: {legend1: "BRUN 01415: “Toll Booth Pranks”: Severed hand extended to toll collector."}},
+                                {text: {legend1: "BRUN 01400: The Hook: Hookman leaves hook-hand dangling from door handle."}},
+                                {text: {legend1: "BRUN 01405: The Severed Fingers: Fingers of threatening pedestrians torn off by car."}},
                             ]
                         },
                         {
@@ -99,9 +98,9 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 01510: [..]"}},
-                                {text: {legend1: "BRUN 01500: [..]"}},
-                                {text: {legend1: "BRUN 01505: [..]"}},
+                                {text: {legend1: "BRUN 01510: The Philanderer's Porsche: Husband's expensive car sold cheaply by abandoned wife"}},
+                                {text: {legend1: "BRUN 01500: The Economical Car: Experimental car model accidentally sold, then recalled"}},
+                                {text: {legend1: "BRUN 01505: The Death Car: A Car is sold that smells like death."}},
                             ]
                         },
                         {
@@ -111,9 +110,9 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 01615: [..]"}},
-                                {text: {legend1: "BRUN 01605: [..]"}},
-                                {text: {legend1: "BRUN 01600: [..]"}},
+                                {text: {legend1: "BRUN 01615: “The Stuck Couple” Penis captivus in a sports car."}},
+                                {text: {legend1: "BRUN 01605: “The Unzipped Plumber or Mechanic”: Man under sink (or car) unzipped by wife, thinking he's her husband. "}},
+                                {text: {legend1: "BRUN 01600: “The Solid-Cement Cadillac”: Husband fills own new car, gift from wife, with cement, thinking it belongs to wife's lover."}},
                             ]
                         },
                         {
@@ -133,12 +132,12 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 01835: [..]"}},
-                                {text: {legend1: "BRUN 01810: [..]"}},
-                                {text: {legend1: "BRUN 01805: [..]"}},
-                                {text: {legend1: "BRUN 01800: [..]"}},
-                                {text: {legend1: "BRUN 01825: [..]"}},
-                                {text: {legend1: "BRUN 01860: [..]"}},
+                                {text: {legend1: "BRUN 01835: The Double Theft: Thieves return car with tickets as thanks; burglarize home while owners are attending show, concert, game, et "}},
+                                {text: {legend1: "BRUN 01810: “Truckers and Bikers”: Trucker(s) revenge on motorcyclists."}},
+                                {text: {legend1: "BRUN 01805: “The Dishonest Note”: Driver who hit parked car pretends to leave his name and address."}},
+                                {text: {legend1: "BRUN 01800: The Rattle in the Cadillac: Note from auto worker in sabotaged new car mocks owner."}},
+                                {text: {legend1: "BRUN 01825: The Arrest: Driver escaping DUI citation takes the wrong car, a police cruiser."}},
+                                {text: {legend1: "BRUN 01860: The Stolen Speed Trap: Thought to be lost microwave oven."}},
                             ]
                         },
                     ]
@@ -157,8 +156,8 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 02000: [..]"}},
-                                {text: {legend1: "BRUN 02005: [..]"}},
+                                {text: {legend1: "BRUN 02000: The Microwaved Pet"}},
+                                {text: {legend1: "BRUN 02005: The Dead Cat in the Package: a stolen or switched package contains a dead cat."}},
                             ]
                         },
                         {
@@ -168,9 +167,9 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 02105: [..]"}},
-                                {text: {legend1: "BRUN 02115: [..]"}},
-                                {text: {legend1: "BRUN 02110: [..]"}},
+                                {text: {legend1: "BRUN 02105: The Hare Dryer: Rabbit dried and replaced in hutch."}},
+                                {text: {legend1: "BRUN 02115: “The Bump in the Rug”: Carpet layer inadvertently crushes pet canary, hamster, gerbil, etc."}},
+                                {text: {legend1: "BRUN 02110: “The Poisoned Pussycat at the Party”: Guests have stomachs pumped, but cat was killed by a car, not food it stole."}},
                             ]
                         },
                         {
@@ -180,7 +179,7 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 02215A: [..]"}},
+                                {text: {legend1: "BRUN 02215A: The Animal's Revenge: Dog wired with explosive crawls under car, truck, or camper."}},
                             ]
                         },
                         {
@@ -190,10 +189,10 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: " BRUN 02320: [..]"}},
-                                {text: {legend1: " BRUN 02300: [..]"}},
-                                {text: {legend1: " BRUN 02305: [..]"}},
-                                {text: {legend1: " BRUN 02310: [..]"}},
+                                {text: {legend1: " BRUN 02320: “Fifi Spills the Paint” Painter blames spill on dog. "}},
+                                {text: {legend1: " BRUN 02300: “The Dog is Dinner”: Dog is cooked and served to owners, tourists in Hong Kong."}},
+                                {text: {legend1: " BRUN 02305: “The Dog in the HighRise”: Dog follows tossed ball out window to death."}},
+                                {text: {legend1: " BRUN 02310: “The Leashed Dog”: Dog tied to garage door or car, forgotten and hanged or dragged."}},
                             ]
                         },
                         {
@@ -257,6 +256,17 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
+                                {text: {legend1: " BRUN 02800: Not My Dog : Dog follows owner and guest to house, but belongs to neither"}},
+                                {text: {legend1: " BRUN 02805: Lawn Order: Dog repelled by water-filled bottle"}}
+                            ]
+                        },
+		 	{
+                            text: { legend1: 
+                                "WATCHDOG"
+                            },
+                            collapsed: true,
+                            childrenDropLevel: 2,
+                            children: [
                                 {text: {legend1: " BRUN 02320: [..]"}},
                                 {text: {legend1: " BRUN 02300: [..]"}},
                                 {text: {legend1: " BRUN 02305: [..]"}},
@@ -280,9 +290,9 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                                {text: {legend1: "BRUN 03000: [..]"}},
-                                {text: {legend1: "BRUN 03010: [..]"}},
-                                {text: {legend1: "BRUN 03005: [..]"}},
+                                {text: {legend1: "BRUN 03000: The Babysitter and the Man Upstairs: Threatening phonecalls to the babysitter from upstairs"}},
+                                {text: {legend1: "BRUN 03010: The Baby Roast: Caregiver cooks baby"}},
+                                {text: {legend1: "BRUN 03005: The Clever Babysitter: Babysitter uses stove to quiet baby"}},
                             ]
                         },
                         {
@@ -719,7 +729,7 @@
                                 {text: {legend1: "BRUN 04165: [..]"}},
                                 {text: {legend1: "BRUN 04140: [..]"}},
                                 {text: {legend1: "BRUN 04110: [..]"}},
-								{text: {legend1: "BRUN 04115: [..]"}},
+				{text: {legend1: "BRUN 04115: [..]"}},
                                 {text: {legend1: "BRUN 04155: [..]"}},
                                 {text: {legend1: "BRUN 04135: [..]"}},
                                 {text: {legend1: "BRUN 04130: [..]"}},            
