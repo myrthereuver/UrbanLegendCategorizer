@@ -1,5 +1,5 @@
 
-    var chart_config = {
+   var chart_config = {
         chart: {
             container: "#collapsable-example",
 
@@ -54,7 +54,6 @@
                                 {text: {legend1: "BRUN 01150: [..]"}},
                                 {text: {legend1: "BRUN 01105: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -68,9 +67,7 @@
                                 {text: {legend1: "BRUN 01210: [..]"}},
                                 {text: {legend1: "BRUN 01245: [..]"}},
                                 {text: {legend1: "BRUN 01215: [..]"}},
-
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -83,7 +80,6 @@
                                 {text: {legend1: "BRUN 01310: [..]"}},
                                 {text: {legend1: "BRUN 01300: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -108,7 +104,6 @@
                                 {text: {legend1: "BRUN 01500: [..]"}},
                                 {text: {legend1: "BRUN 01505: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -120,9 +115,7 @@
                                 {text: {legend1: "BRUN 01615: [..]"}},
                                 {text: {legend1: "BRUN 01605: [..]"}},
                                 {text: {legend1: "BRUN 01600: [..]"}},
- 
                             ]
-
                         },
                         {
                         text: { legend1: 
@@ -132,8 +125,7 @@
                         childrenDropLevel: 2,
                         children: [
                             {text: {legend1: "No stories in this category in the database"}},
-                        ]
-
+							]
                         },
                         {
                             text: { legend1: 
@@ -148,11 +140,8 @@
                                 {text: {legend1: "BRUN 01800: [..]"}},
                                 {text: {legend1: "BRUN 01825: [..]"}},
                                 {text: {legend1: "BRUN 01860: [..]"}},
-
                             ]
-
                         },
-
                     ]
                 },
                 {
@@ -171,9 +160,7 @@
                             children: [
                                 {text: {legend1: "BRUN 02000: [..]"}},
                                 {text: {legend1: "BRUN 02005: [..]"}},
-             
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -185,9 +172,7 @@
                                 {text: {legend1: "BRUN 02105: [..]"}},
                                 {text: {legend1: "BRUN 02115: [..]"}},
                                 {text: {legend1: "BRUN 02110: [..]"}},
-             
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -197,9 +182,7 @@
                             childrenDropLevel: 2,
                             children: [
                                 {text: {legend1: "BRUN 02215A: [..]"}},
-             
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -212,9 +195,7 @@
                                 {text: {legend1: " BRUN 02300: [..]"}},
                                 {text: {legend1: " BRUN 02305: [..]"}},
                                 {text: {legend1: " BRUN 02310: [..]"}},
-             
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -227,9 +208,7 @@
                                 {text: {legend1: " BRUN 02300: [..]"}},
                                 {text: {legend1: " BRUN 02305: [..]"}},
                                 {text: {legend1: " BRUN 02310: [..]"}},
-             
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -242,9 +221,7 @@
                                 {text: {legend1: " BRUN 02300: [..]"}},
                                 {text: {legend1: " BRUN 02305: [..]"}},
                                 {text: {legend1: " BRUN 02310: [..]"}},
-             
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -259,7 +236,6 @@
                                 {text: {legend1: " BRUN 02310: [..]"}},
              
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -274,7 +250,6 @@
                                 {text: {legend1: " BRUN 02310: [..]"}},
              
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -289,12 +264,8 @@
                                 {text: {legend1: " BRUN 02310: [..]"}},
              
                             ]
-
-
                         },
-        
                     ]
-    
                 },
                 {
                     text: {
@@ -314,7 +285,6 @@
                                 {text: {legend1: "BRUN 03010: [..]"}},
                                 {text: {legend1: "BRUN 03005: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -327,10 +297,8 @@
                                 {text: {legend1: "BRUN 03175: [..]"}},
                                 {text: {legend1: "BRUN 03105: [..]"}},
                                 {text: {legend1: "BRUN 03145: [..]"}},
-                                {text: {legend1: "BRUN 03160: [..]"}},
-             
+                                {text: {legend1: "BRUN 03160: [..]"}},             
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -347,12 +315,9 @@
                                 {text: {legend1: "BRUN 03275: [..]"}},
                                 {text: {legend1: "BRUN 03235: [..]"}},
                                 {text: {legend1: "BRUN 03270: [..]"}},
-             
                             ]
                         },
-        
                     ]
-    
                 },
                 {
                     text: {
@@ -379,10 +344,8 @@
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
-                               {text: {legend1: "ER ZIJN GEEN BROODJEAAPVERHALEN VAN DIT TYPE IN DE DATABASE"}},
-             
+                               {text: {legend1: "ER ZIJN GEEN BROODJEAAPVERHALEN VAN DIT TYPE IN DE DATABASE"}},            
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -408,15 +371,12 @@
                                 {text: {legend1: "BRUN 05312: [..]"}},
                                 {text: {legend1: "BRUN 05318: [..]"}},
                                 {text: {legend1: "BRUN 05321: [..]"}},
-             
-             
                             ]
-
                         },
                         {
                             text: { legend1: 
                                 "CAUGHT IN THE ACT"
-                            },
+								},
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
@@ -438,13 +398,9 @@
                                 {text: {legend1: "BRUN 05515: [..]"}},
                                 {text: {legend1: "BRUN 05535: [..]"}},
                                 {text: {legend1: "BRUN 05510: [..]"}},
-             
                             ]
-
-                        },
-        
+                        },   
                     ]
-    
                 },
                 {
                     text: {
@@ -462,22 +418,19 @@
                                 {text: {legend1: "BRUN 05005: [..]"}},
                                 {text: {legend1: "BRUN 05000: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
-                                "'UNWITTING THEFT"
+                                "UNWITTING THEFT"
                             },
                             collapsed: true,
                             childrenDropLevel: 2,
                             children: [
                                {text: {legend1: "ER ZIJN GEEN BROODJEAAPVERHALEN VAN DIT TYPE IN DE DATABASE"}},
-             
                             ]
-
                         },
                         {
-                            text: { legend1: 
+							text: { legend1: 
                                 "FOOD THEFT"
                             },
                             collapsed: true,
@@ -500,10 +453,7 @@
                                 {text: {legend1: "BRUN 05312: [..]"}},
                                 {text: {legend1: "BRUN 05318: [..]"}},
                                 {text: {legend1: "BRUN 05321: [..]"}},
-             
-             
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -529,14 +479,10 @@
                                 {text: {legend1: "BRUN 05520: [..]"}},
                                 {text: {legend1: "BRUN 05515: [..]"}},
                                 {text: {legend1: "BRUN 05535: [..]"}},
-                                {text: {legend1: "BRUN 05510: [..]"}},
-             
+                                {text: {legend1: "BRUN 05510: [..]"}},           
                             ]
-
                         },
-        
                     ]
-    
                 },
                 {
                     text: {
@@ -559,7 +505,6 @@
                                 {text: {legend1: "BRUN 07125: [..]"}},
                                 {text: {legend1: "BRUN 07115: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -571,7 +516,6 @@
                                 {text: {legend1: "BRUN 07215 [..]"}},
                                 {text: {legend1: "BRUN 07200: [..]"}},
                             ]
-
                         },
                         {
                           text: { legend1: 
@@ -583,7 +527,6 @@
                                {text: {legend1: "BRUN 07320: [..]"}},
              
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -595,7 +538,6 @@
                                 {text: {legend1: "BRUN 07320: [..]"}},
              
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -615,14 +557,9 @@
                             childrenDropLevel: 2,
                             children: [
                                 {text: {legend1: "BRUN 07005: [..]"}},
-    
-             
                             ]
-
                         },
-        
                     ]
-    
                 },
                 {
                     text: {
@@ -650,7 +587,6 @@
                             children: [
                                 {text: {legend1: "BRUN 03155: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -671,13 +607,9 @@
                             childrenDropLevel: 2,
                             children: [
                                 {text: {legend1: "BRUN 08410: [..]"}},
-    
-             
                             ]
                         },
-        
                     ]
-    
                 },
                 {
                     text: {
@@ -696,7 +628,6 @@
                                 {text: {legend1: "BRUN 09000: [..]"}},
                                 {text: {legend1: "BRUN 09010: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -707,15 +638,10 @@
                             children: [
                                 {text: {legend1: "BRUN 09110: [..]"}},
                                 {text: {legend1: "BRUN 09125: [..]"}},
-                                {text: {legend1: "BRUN 09145: [..]"}},
-             
+                                {text: {legend1: "BRUN 09145: [..]"}},             
                             ]
-
-                        },
-      
-        
-                    ]
-    
+                        },       
+                    ]   
                 },
                 {
                     text: {
@@ -734,7 +660,6 @@
                                 {text: {legend1: "BRUN 10020: [..]"}},
                                 {text: {legend1: "BRUN 10025: [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -745,10 +670,8 @@
                             children: [
                                 {text: {legend1: "BRUN 10140 : [..]"}},
                                 {text: {legend1: "BRUN 10150: [..]"}},
-                                {text: {legend1: "BRUN 10135: [..]"}},
-             
+                                {text: {legend1: "BRUN 10135: [..]"}},           
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -759,13 +682,10 @@
                             children: [
                                 {text: {legend1: "BRUN 10260: [..]"}},
                                 {text: {legend1: "BRUN 10200: [..]"}},
-                                {text: {legend1: "BRUN 10215: [..]"}},
-             
+                                {text: {legend1: "BRUN 10215: [..]"}},            
                             ]
-                        },
-        
-                    ]
-    
+                        },        
+                    ]   
                 },
                 {
                     text: {
@@ -789,7 +709,6 @@
                                 {text: {legend1: "BRUN 04010: [..]"}},
                                 {text: {legend1: "BRUN 04015 : [..]"}},
                             ]
-
                         },
                         {
                             text: { legend1: 
@@ -806,74 +725,11 @@
                                  {text: {legend1: "BRUN 04115: [..]"}},
                                  {text: {legend1: "BRUN 04155: [..]"}},
                                  {text: {legend1: "BRUN 04135: [..]"}},
-                                 {text: {legend1: "BRUN 04130: [..]"}},
-             
+                                 {text: {legend1: "BRUN 04130: [..]"}},            
                             ]
-
-                        }
+                        },
                     ]
                 },
-
             ]
         }
     };
-
-/* Array approach
-    var config = {
-        container: "#collapsable-example",
-
-        animateOnInit: true,
-        
-        node: {
-            collapsable: true
-        },
-        animation: {
-            nodeAnimation: "easeOutBounce",
-            nodeSpeed: 700,
-            connectorsAnimation: "bounce",
-            connectorsSpeed: 700
-        }
-    },
-    malory = {
-        image: "img/malory.png"
-    },
-
-    lana = {
-        parent: malory,
-        image: "img/lana.png"
-    }
-
-    figgs = {
-        parent: lana,
-        image: "img/figgs.png"
-    }
-
-    sterling = {
-        parent: malory,
-        childrenDropLevel: 1,
-        image: "img/sterling.png"
-    },
-
-    woodhouse = {
-        parent: sterling,
-        image: "img/woodhouse.png"
-    },
-
-    pseudo = {
-        parent: malory,
-        pseudo: true
-    },
-
-    cheryl = {
-        parent: pseudo,
-        image: "img/cheryl.png"
-    },
-
-    pam = {
-        parent: pseudo,
-        image: "img/pam.png"
-    },
-
-    chart_config = [config, malory, lana, figgs, sterling, woodhouse, pseudo, pam, cheryl];
-
-*/
