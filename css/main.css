@@ -259,7 +259,7 @@ a {
 }
 
 #newcontainer{
-	width:800px;
+	width:900px;
 }
 #.suggested-brinkey-container2 .suggested-brinkey2 {
     height:200px;
@@ -305,21 +305,21 @@ a {
     border:  2px dashed #C96E68;
     padding:10px;
     min-height:200px;
-	max-height:100px;
+	max-height:70px;
 }
 
 #selected-brinkeys-drop2 {
     border:  2px dashed #C96E68;
     padding:10px;
     min-height:200px;
-	max-height:100px;
+	max-height:70px;
 }
 
 #selected-brinkeys-drop3 {
     border:  2px dashed #C96E68;
     padding:10px;
     min-height:200px;
-	max-height:100px;
+	max-height:70px;
 }
 
 #selected-brinkeys .suggested-brinkey{
