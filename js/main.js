@@ -1,6 +1,10 @@
 
 
 // making the dissertation drop work on the homepage
+$('#sendd3').click(function() {
+	var inPuttext3 = document.getElementById("iPf3").value;
+  	});
+
 $(".dissertation").draggable({ cursor: "crosshair", revert: "invalid"});
 $("#drop").droppable({ accept: ".dissertation", 
     drop: function(event, ui) {
@@ -15,9 +19,6 @@ $("#drop").droppable({ accept: ".dissertation",
 		var cat1 = suggestedBrinkeys[0];
 		var cat2 = suggestedBrinkeys[1];
 		var cat3 = suggestedBrinkeys[2];  
-  	$('#sendd3').click(function() {
-	  var inPuttext3 = document.getElementById("iPf3").value;
-  	})
         $('#suggested-brinkey-container').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container2').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container3').html(''); // empty div, in case there's any left over from previous analysis
