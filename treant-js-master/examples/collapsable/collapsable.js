@@ -1,5 +1,4 @@
-
-   var chart_config = {
+ var chart_config = {
         chart: {
             container: "#collapsable-example",
 
@@ -695,8 +694,6 @@
                     childrenDropLevel: 2,
                     children: [
                         {
-                             [
-                        {
                             text: { legend1: 
                                 "GRUESOME ACCIDENT"
                             },
@@ -722,10 +719,10 @@
                                 {text: {legend1: "BRUN 04165: [..]"}},
                                 {text: {legend1: "BRUN 04140: [..]"}},
                                 {text: {legend1: "BRUN 04110: [..]"}},
-                                 {text: {legend1: "BRUN 04115: [..]"}},
-                                 {text: {legend1: "BRUN 04155: [..]"}},
-                                 {text: {legend1: "BRUN 04135: [..]"}},
-                                 {text: {legend1: "BRUN 04130: [..]"}},            
+								{text: {legend1: "BRUN 04115: [..]"}},
+                                {text: {legend1: "BRUN 04155: [..]"}},
+                                {text: {legend1: "BRUN 04135: [..]"}},
+                                {text: {legend1: "BRUN 04130: [..]"}},            
                             ]
                         },
                     ]
