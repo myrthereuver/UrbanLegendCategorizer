@@ -24,17 +24,17 @@ $("#drop").droppable({ accept: ".dissertation",
         $('#suggested-brinkey-container2').append('<p class="suggested-brinkey" data-brinkey="'+cat2+'">'+cat2+' <span class="ui-icon ui-icon-arrow-4"></span></p>');
 	$('#suggested-brinkey-container3').append('<p class="suggested-brinkey" data-brinkey="'+cat3+'">'+cat3+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
 
-	$('#sendd1').click(function() {
-    		var inPuttext1 = document.getElementById("iPf1").value;
-    		$('#suggested-brinkey-container3').append('<p class="suggested-brinkey" data-brinkey="'+inPuttext1+'">'+inPuttext1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
-		message = "Je invoer is opgeslagen!"
-	},
+
 	    
         makeBrinkeysDroppable()
 		makeBrinkeysDroppable2()
 		makeBrinkeysDroppable3()
 	    
-        
+        $('#sendd1').click(function() {
+    		var inPuttext1 = document.getElementById("iPf1").value;
+    		$('#suggested-brinkey-container1').append('<p class="suggested-brinkey" data-brinkey="'+inPuttext1+'">'+inPuttext1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
+		message = "Je invoer is opgeslagen!"
+	};
 
         // place title and abstract
         $('span#title').html(dropped.find('h3').html());
