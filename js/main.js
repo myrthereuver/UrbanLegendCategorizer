@@ -50,9 +50,6 @@ $("#drop").droppable({ accept: ".dissertation",
 function makeBrinkeysDroppable(){
     // making the brinkeys drop work
     $(".suggested-brinkey").draggable({ cursor: "crosshair", revert: "invalid"});
-   $(".outPutfield3").draggable({ cursor: "crosshair", revert: "invalid"});
-   $(".outPutfield1").draggable({ cursor: "crosshair", revert: "invalid"});
-   $(".outPutfield2").draggable({ cursor: "crosshair", revert: "invalid"});
     $("#selected-brinkeys-drop").droppable({ accept: ".suggested-brinkey", 
         drop: function(event, ui) {
             var dropped = ui.draggable;
