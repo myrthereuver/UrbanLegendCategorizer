@@ -273,9 +273,10 @@ a {
 
 #newcontainer{
 	width:800px;
+	height:800px
 }
 #.suggested-brinkey-container2 .suggested-brinkey2 {
-    height:150px;
+    height:100px;
 	width: 100px;
     padding:5px 1%;
     #margin:0 1% 5px 0;
@@ -283,7 +284,7 @@ a {
 }
 
 #.suggested-brinkey-container3 .suggested-brinkey3 {
-     height:150px;
+     height:100px;
 	width: 100px;
     padding:5px 1%;
     #margin:0 1% 5px 0;
@@ -291,7 +292,7 @@ a {
 }
 
 #.suggested-brinkey-container .suggested-brinkey {
-    height:150px;
+    height:100px;
 	width: 100px;
     padding:5px 1%;
     #margin:0 1% 5px 0;
