@@ -64,13 +64,13 @@ function makeBrinkeysDroppable(){
         }
     });
     $("#suggested-brinkey-container").droppable({ 
-        accept: ".suggested-brinkey", ".outPutfield1"
+        accept: ".suggested-brinkey"
     });
 	$("#suggested-brinkey-container2").droppable({ 
-		accept: ".suggested-brinkey", ".outPutfield2"
+		accept: ".suggested-brinkey"
     });
 	$("#suggested-brinkey-container3").droppable({ 
-        accept: ".suggested-brinkey", ".outPutfield3"
+        accept: ".suggested-brinkey"
     });
 }
 
