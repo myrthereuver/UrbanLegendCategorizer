@@ -114,13 +114,12 @@ a {
     content: ".";
     visibility: hidden;
     display: block;
-    height: 1024px;
+    height: 0;
     clear: both;
 }
 .wrapper {
     max-width:1024px;
     width:90%;
-    height: 0;
     margin:0px auto;
     padding:20px 2%;
     background:#fff;
@@ -128,7 +127,7 @@ a {
 
 .logo {
     width:100%;
-    margin:-45px 0 -20px 0;
+    margin:-45px 0 0 0;
 }
 .dissertation {
     width:12%;
