@@ -16,7 +16,6 @@ $("#drop").droppable({ accept: ".dissertation",
 		var cat2 = suggestedBrinkeys[1];
 		var cat3 = suggestedBrinkeys[2];
 
-	
         $('#suggested-brinkey-container').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container2').html(''); // empty div, in case there's any left over from previous analysis
 		$('#suggested-brinkey-container3').html(''); // empty div, in case there's any left over from previous analysis
@@ -24,7 +23,19 @@ $("#drop").droppable({ accept: ".dissertation",
         $('#suggested-brinkey-container2').append('<p class="suggested-brinkey" data-brinkey="'+cat2+'">'+cat2+' <span class="ui-icon ui-icon-arrow-4"></span></p>');
 	$('#suggested-brinkey-container3').append('<p class="suggested-brinkey" data-brinkey="'+cat3+'">'+cat3+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
 	
+	var outPutfield1 = document.getElementById("oPf1");
+
+  	function appendOutput(where, what) {
+    		where.innerHTML = what;
+  	};
+  	$('#sendd1').click(function() {
+	    var inPuttext1 = document.getElementById("iPf1").value;
+    	     appendOutput(outPutfield1, inPuttext1);
+	  message = "Je invoer is opgeslagen!"
+  	});
 	    
+ 	$('#suggested-brinkey-container3').append('<p class="suggested-brinkey" data-brinkey="'+outPutfield1+'">'+outPutfield1+'  <span class="ui-icon ui-icon-arrow-4"></span></p>');
+
         makeBrinkeysDroppable()
 		makeBrinkeysDroppable2()
 		makeBrinkeysDroppable3()
